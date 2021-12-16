@@ -1,4 +1,4 @@
-# Unit-8-SQL-Library-Manager
+# SQL-Library-Manager
 
 This app displays a list of books and allows the user to add/update/delete books within the database. 
 
