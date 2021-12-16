@@ -1,0 +1,169 @@
+body {
+  padding: 10px 50px 50px;
+  font: 18px "Titillium", sans-serif;
+  background-color: #343232;
+  color: #DCE1DE;
+}
+
+.top-nav {
+  display:inline-block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.top-nav a {
+  float: inline-start;
+}
+
+.top-nav .search-form {
+  float: inline-end;
+}
+
+.search-input {
+  font: inherit;
+  padding: 6px;
+  border: 4px solid #6F8779;
+  border-radius: 0.25rem 0 0 0.25rem ;
+  transition: .4s ease-out;
+}
+
+.search-input:active, .search-input:hover, .search-input:focus {
+  outline: 4px solid #AB5F8B;
+}
+
+.search-submit {
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  transition: .4s ease-out;
+  font-size: 18px;
+  background: #07423D;
+  border: #6F8779 2px solid;
+}
+
+.search-submit:active, .search-submit:hover, .search-submit:focus {
+  background: #127D74;
+  outline: 4px solid #AB5F8B;
+}
+
+.fa-search {
+  color: #DCE1DE;
+
+}
+
+a {
+  color: #9CABA2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #DCE1DE;
+}
+
+a.button, input[type=submit] {
+  color: #DCE1DE;
+  background: #07423D;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px 14px 12px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+form a.button, input[type=submit] {
+  margin-left: 140px;
+  transition: 0.4s;
+}
+
+input[type=submit] {
+  border: 0;
+}
+
+a.button:hover, input[type=submit]:hover {
+  background-color: #127D74;
+}
+
+p {
+  margin: 20px auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  border-top: 2px solid #e7e7e7;
+  padding-top: 20px;
+}
+
+.table {
+  display: inline-block;
+}
+
+th {
+  border-bottom: 2px solid #343232;
+  text-align: left;
+  padding: 5px 20px 5px 10px;
+}
+
+tr {
+  min-height: 50px;
+}
+
+tr:nth-child(2n) {
+  background: #484747;
+}
+
+td {
+  padding: 5px 20px 5px 10px;
+}
+
+label {
+  font-weight: bold;
+  min-width: 130px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+input {
+  padding: 10px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 4px solid #6F8779;
+  transition: 0.4s;
+}
+
+input[type=text] {
+  margin-left: 7px;
+  width: 300px;
+  background-color: #DCE1DE;
+}
+
+input[type=text]:focus {
+  outline: solid 4px #AB5F8B;
+  transition: 0.2s;
+}
+
+.pagination {
+  padding-top: 10px;
+}
+
+.pagination a {
+  margin: 8px;
+}
+
+.error {
+  color: rgb(236, 15, 15);
+}
+
+
